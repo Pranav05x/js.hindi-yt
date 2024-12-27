@@ -43,15 +43,27 @@ console.log(real_another_array);
 
 
 
-// console.log(Array.isArray("Hitesh")) 
-// console.log(Array.from("Hitesh"))
-// console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.isArray("Hitesh"))   //isarray is boolean value
+console.log(Array.from("pran")) 
+//The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object.
+//  e.g  console.log(Array.from('foo'));
+// Expected output: Array ["f", "o", "o"]
+ 
+ 
+console.log(Array.from({name : "hitesh"})) // interesting cause array gets confuse
+
+
+
+// console.log(from);
 
 // let score1 = 100
 // let score2 = 200
 // let score3 = 300
 
 // console.log(Array.of(score1, score2, score3));
+
+//of() is same as from 
+// array.of() method is an inbuilt method in JavaScript that creates a new array instance with variables present as the argument of the method.
 
 
  
