@@ -41,11 +41,11 @@ jsuser.greeting = function(){
     
 }
 jsuser.greeting2 = function(){
-    console.log(`hello js user, ${this.name}`);
+    console.log(`hello js user, ${this.name}`); //whenever we want to perform task on same object as reference we use this. keyword
     
 }
 
-console.log(jsuser.greeting()); 
+console.log(jsuser.greeting); 
 //just because i freeze the item above, function didint work
 
-console.log(jsuser.greeting2());
+// console.log(jsuser.greeting2());
