@@ -32,7 +32,7 @@ function addTwoNumberse(number1, number2){
    // let result = number1 + number2
    // return result
 
-   //method n0.2
+   //method no.2 is easy
    return number1 + number2
 
    //once we return the function ,other values wont work: e.g down below
@@ -42,5 +42,17 @@ function addTwoNumberse(number1, number2){
 const result = addTwoNumberse(4,5)
 //we can also store function in variable
 
-console.log("result", result);
+// console.log("result", result);
 
+
+function loginUserMessage(username = "pran"){ //we took = pran for e.g
+    // if (username === undefined) {   //also (!username) and (===undefined) are same 
+    if(!username){   
+    console.log("please enter a username");
+        return
+    }
+    return `${username} "just logged in"`
+
+}
+
+console.log(loginUserMessage());
