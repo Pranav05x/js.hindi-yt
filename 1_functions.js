@@ -28,13 +28,19 @@ function sayMyName () {
 
 function addTwoNumberse(number1, number2){
 
-   let result = number1 + number2
-   return result
-   
+    //metod no.1
+   // let result = number1 + number2
+   // return result
 
+   //method n0.2
+   return number1 + number2
+
+   //once we return the function ,other values wont work: e.g down below
+   console.log("pranav");
 }
-          //arguments
+                  //arguments
 const result = addTwoNumberse(4,5)
+//we can also store function in variable
 
 console.log("result", result);
 
