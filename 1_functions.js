@@ -54,5 +54,10 @@ function loginUserMessage(username = "pran"){ //we took = pran for e.g
     return `${username} "just logged in"`
 
 }
+// console.log(loginUserMessage("pranav"));
 
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+
+***************************************************************************
+
