@@ -27,3 +27,11 @@ function fname(unpleasent){
 // })
 
 // function with array*************************************************
+
+
+const ary = [1,2,3,4]
+function arrayfunction(arrayobj){
+    return arrayobj[2]
+        
+}
+//    console.log(arrayfunction(ary));
