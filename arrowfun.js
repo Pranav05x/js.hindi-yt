@@ -79,11 +79,24 @@ const user = {
 
     // **********************************************************
     // implesit return method
-    // in this method we dont use 
-    const addtwo = (num1,num2) =>{
-        return num1 + num2
-    }
-    const addtwo = (num1,num2) =>{
-        return num1 + num2
-    }
-    console.log(addtwo(5,5))
+    // in this method we dont use  parenthices () and also implicite means assue,
+    //  i assume that i have only one line code, also dont need to return 
+    // in this method we remove : {} and return keyword  
+    //  if we use parenthices() then we dont need to write down return keyword
+    // same if we use brecec{} we gonna need to write return
+
+    // const addtwo = (num1,num2) => (num1 + num2) 
+    // console.log(addtwo(5,5))  
+    
+    // ***********************************************
+    //same goes to explisite we use return and {} 
+
+    // *******************************************************888
+    // while addind object in arrowfunction
+    const addone = (num1,num2) => ({username : "pran"})
+
+    console.log(addone(5,5))
+
+    // const myarray = [2,3,4,5,6]
+
+    // myarray.forEach()
