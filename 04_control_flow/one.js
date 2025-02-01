@@ -46,10 +46,17 @@ if (temp === 50 ) {
 
 const userloggedin = true
 const debitcard = true
+const loggedinfromgoogle = false
+const loggedinfromemail = true
 
-if (userloggedin && debitcard ) 
+if (userloggedin && debitcard && 2 > 3) 
        //&& : (and operator) in this oprator all condition must be true
        {
        console.log(`allow to bu course`);
+       }
+       if (loggedinfromemail || loggedinfromgoogle) 
+        //  || : or operator even if single condition cames true the code will be execute
+       {
+              console.log(`user is logged in`);
        }
   
