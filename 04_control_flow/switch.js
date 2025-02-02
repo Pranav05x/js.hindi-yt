@@ -29,5 +29,6 @@ switch (month) {
 }
 
 //break is most important in switch , if you won't break the statement after condition gets true , it will keep executing the rest code
-// whenever case matches then entire code gets executed
-// except default statement
+// whenever case matches then entire code gets executed except default statement 
+//  if conditions doesnt match then , code will run default statement
+
