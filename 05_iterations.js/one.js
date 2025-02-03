@@ -1,4 +1,9 @@
-//  for
+//  forloop
+
+//  for initialize in   (let i = 0;)
+//  then check condition  (i <= 3;)
+//  (i++) increase value by one
+// then it will start again
 
 for (let i = 0; i <= 10; i++) {
     const element = i;
@@ -12,11 +17,10 @@ for (let i = 0; i <= 10; i++) {
 for (let i = 0; i <= 10; i++) {
     const element = i;
     if (element == 5) {
-        console.log(`5 is best`);
+        // console.log(`5 is best`);
     }
-    console.log(element);
-     
-    
+    // console.log(element);
+         
 }
 
 // ********************************************************************
