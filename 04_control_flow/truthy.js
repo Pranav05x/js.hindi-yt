@@ -31,7 +31,7 @@ let val1;
 // val1 = null ?? 10
 // val1 = undefined ?? 10
 val1 = null ?? 10 ?? 20
-// it checks safty value if its null or undefined and if its then it will take another value which was preserved 
+// it checks safty value if its null or undefined and if its null or undefined then it will take another value which is preserved 
 
 console.log(val1);
 // *********************************************************************
