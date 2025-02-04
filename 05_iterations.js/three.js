@@ -28,3 +28,40 @@ for (const greet of greeings) {
     console.log(`each char is ${greet}`);
     
 }
+
+// *****************************************************************
+
+// map
+
+// definition: The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value
+
+// there are uniqe value in map
+// there is no duplicate value in map
+
+const map = new Map()
+map.set('IN', "India")
+map.set('US', "United states of america")
+map.set('FR', "Frace")
+map.set('UK', "United Kingdom")
+map.set('IN', "India")
+
+// console.log(map);
+
+ for (const [key , value] of map) {
+    // console.log(key ,':-', value);
+    // in map we can also add key and value
+    // squre bracket is [must] for( key and value) both
+    // we will also got destructing of array in here
+ }
+// ************************************************************
+// forof loop on object:
+
+const myobj = {
+    game1 : 'nfs',
+    game2 : 'spideman'
+}
+
+// for (const [key,value] of myobj) {
+//     console.log(key ,':-', value);
+    
+// }   //this syntax not working here
