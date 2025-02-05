@@ -1,4 +1,5 @@
 //  if statement
+// we check true or false in if condition
 
 const temp = 50
 if (temp === 50 ) {   
