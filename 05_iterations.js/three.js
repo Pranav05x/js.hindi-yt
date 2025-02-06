@@ -1,5 +1,6 @@
 // for of 
 
+// we besically use on arrays
 // array specific loop
 
 // ["","",""]
@@ -28,6 +29,25 @@ for (const greet of greeings) {
     console.log(`each char is ${greet}`);
     
 }
+//  opt will be this ,because forof loop works on array and arrays comes from 0 to 1,2,3,4...., thats why we got this individual latters
+
+//  each char is h
+// each char is e
+// each char is l
+// each char is l
+// each char is o
+// each char is  
+// each char is b
+// each char is r
+// each char is e
+// each char is  
+// each char is w
+// each char is o
+// each char is r
+// each char is l
+// each char is d
+// each char is !
+
 
 // *****************************************************************
 
