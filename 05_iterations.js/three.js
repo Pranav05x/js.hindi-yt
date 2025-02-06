@@ -1,4 +1,4 @@
-// for of 
+// for of :  works on arrays and dont work on objects
 
 // we besically use on arrays
 // array specific loop
@@ -53,21 +53,21 @@ for (const greet of greeings) {
 
 // map
 
-// definition: The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value
-
+//Maps object holds key-value pairs 
+// and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value
 // there are uniqe value in map
 // there is no duplicate value in map
 
-const map = new Map()
-map.set('IN', "India")
-map.set('US', "United states of america")
+const map = new Map()                                              //map is object itself   
+map.set('IN', "India")                                             //Maps object holds key-value pairs 
+map.set('US', "United states of america")                          //first letter should always be written in capital letter
 map.set('FR', "Frace")
 map.set('UK', "United Kingdom")
-map.set('IN', "India")
+map.set('IN', "India")                                             //will not written the duplicate value
 
 // console.log(map);
 
- for (const [key , value] of map) {
+ for (const [key , value] of map) {                                //if we wants keys and value separatelly , then simply put variable in array and add value
     // console.log(key ,':-', value);
     // in map we can also add key and value
     // squre bracket is [must] for( key and value) both
