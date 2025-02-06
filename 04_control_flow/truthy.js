@@ -1,4 +1,4 @@
-const useremail = "pran@gmail.com"
+const useremail = []
 
 if (useremail) {
     console.log(`is looged in`);
@@ -38,7 +38,9 @@ console.log(val1);
 
 // terniary operator
 
-// condition ? true : false
+// condition 
+// ? true 
+// : false
 
  
 const iceteaprice = 100
